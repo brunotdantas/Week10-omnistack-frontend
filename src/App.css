@@ -1,0 +1,35 @@
+#app{
+    max-width: 1200px; 
+    margin: 0 auto; /* se a tela do usuário for muito grande fique centralizado ao meio */
+    padding: 60px 30px; 
+
+    /* ajustar para tudo que está no app ficar numa linha */
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-start; /* Alinhar ao topo para não ocupar a tela toda */
+}
+
+#app main {
+    margin-left: 30px;
+}
+
+/* Responsividade ao 1000 px */
+@media (max-width: 1000px){
+    #app {
+        flex-direction: column;
+    }
+
+    #app main{
+       margin-left: 0;
+       margin-top:  30px; 
+    }
+
+    #app aside {
+        width:  100%;
+    }
+
+    #app main {
+        width:  100%;
+    }
+
+}

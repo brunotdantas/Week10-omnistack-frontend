@@ -1,0 +1,31 @@
+main{
+    flex: 1; /* ocupar todo o espaço do main*/
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+
+/* Responsividade aos 650 px */
+@media (max-width: 650px){
+    main ul{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}

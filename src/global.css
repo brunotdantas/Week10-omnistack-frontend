@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    /*Reseta comportamento padrão html*/
+    margin: 0; 
+    padding: 0; 
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    /*por padrão não ocupam 100*/
+    height: 100%;
+}
+
+body {
+    background-color: #E5E6F0;
+    -webkit-font-smoothing: antialiased; /*somente em browsers baseados em webkit para melhorar a leitura*/
+}
+
+body, input, button {
+    font-family: Roboto, sans-serif; /*usa roboto, caso não consiga, sans-serif*/
+}
