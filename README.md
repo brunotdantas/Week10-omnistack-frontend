@@ -16,12 +16,10 @@ Refresh da lista de devs
 ![image](https://user-images.githubusercontent.com/19207320/75403079-57157300-58e5-11ea-8910-9483b773d715.png)
 
 ## Proposta da solução: 
-Entregar uma solução mobile para que os usuários busquem pelo mapa desenvolvedores que já estão no banco de dados e
-que se encontram em até 10KM da posição de GPS atual. Ao clicar no perfil do usuário é possível navegar em seu perfil do GITHUB.
+Entregar uma solução Web para que os usuários façam cadastro e também vejam desenvolvedores já cadastrados
 
 ## O que é o projeto:  
-- Preparar um APP que pegue a posição de GPS e com base nesta posição faça requisições para API
-- Ao digitar a tecnologia no inputBox é feita a requisição para a API e renderizado no mapa 
+- Preparar uma SPA(single page application) que permita o cadastro de usuários via consumo de API desenvolvida no back end e mostrar a lista de devs com base na rota de busca de devs
 
 ### Para executar o projeto: 
 Sugiro utilizar o gitpod clicando no link abaixo 
@@ -30,9 +28,11 @@ Sugiro utilizar o gitpod clicando no link abaixo
 
 
 ### Tecnologias que tive contato 
-- [Imsonia](https://insomnia.rest/) to test the backend routes
 - MongoDB
 - yarn e NPM
+- React JS
+- [Axios](https://github.com/axios/axios) para requisições ao backend 
+
 
 #### Githubs relacionados: 
 [BACKEND](https://github.com/brunotdantas/Week10-omnistack-backend)
