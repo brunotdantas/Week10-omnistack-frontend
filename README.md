@@ -20,11 +20,11 @@ Entregar uma solução mobile para que os usuários busquem pelo mapa desenvolve
 que se encontram em até 10KM da posição de GPS atual. Ao clicar no perfil do usuário é possível navegar em seu perfil do GITHUB.
 
 ## O que é o projeto:  
-    - Preparar um APP que pegue a posição de GPS e com base nesta posição faça requisições para API
-    - Ao digitar a tecnologia no inputBox é feita a requisição para a API e renderizado no mapa 
+- Preparar um APP que pegue a posição de GPS e com base nesta posição faça requisições para API
+- Ao digitar a tecnologia no inputBox é feita a requisição para a API e renderizado no mapa 
 
 ### Para executar o projeto: 
-    Sugiro utilizar o gitpod clicando no link abaixo 
+Sugiro utilizar o gitpod clicando no link abaixo 
     
 [GitPod](https://gitpod.io/#https://github.com/brunotdantas/Week10-omnistack-mobile/)
 
