@@ -24,14 +24,18 @@ que se encontram em até 10KM da posição de GPS atual. Ao clicar no perfil do 
     - Ao digitar a tecnologia no inputBox é feita a requisição para a API e renderizado no mapa 
 
 ### Para executar o projeto: 
-    Sugiro utilizar o gitpod clicando no link abaixo e instalar o Expo para desenvolver
+    Sugiro utilizar o gitpod clicando no link abaixo 
     
 [GitPod](https://gitpod.io/#https://github.com/brunotdantas/Week10-omnistack-mobile/)
 
 
 ### Tecnologias que tive contato 
-- React Native
-  - Uso de componentes e outros recursos da ferramenta
+- React JS
 - MongoDB
-- [Expo](https://expo.io/) para realização de desenvolvimento e debug em tempo real 
- 
+- Axios para requisições das rotas do backend 
+
+
+#### Githubs relacionados: 
+[BACKEND](https://github.com/brunotdantas/Week10-omnistack-backend)
+[MOBILE](https://github.com/brunotdantas/Week10-omnistack-mobile/)
+
