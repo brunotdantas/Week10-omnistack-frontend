@@ -30,10 +30,9 @@ Sugiro utilizar o gitpod clicando no link abaixo
 
 
 ### Tecnologias que tive contato 
-- React JS
+- [Imsonia](https://insomnia.rest/) to test the backend routes
 - MongoDB
-- Axios para requisições das rotas do backend 
-
+- yarn e NPM
 
 #### Githubs relacionados: 
 [BACKEND](https://github.com/brunotdantas/Week10-omnistack-backend)
